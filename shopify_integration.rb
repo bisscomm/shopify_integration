@@ -88,7 +88,8 @@ class ShopifyIntegration < EndpointBase::Sinatra::Base
     end
 
     def update_without_shopify_id?(action_type, obj_name)
-      action_type == 'update' && @payload[obj_name]['shopify_id'].nil? && obj_name != "shipment"
+      action_type == 'update' && @payload[obj_name]['shopify_id'].nil? && 
+        obj_name != "shipment" && obj_name != "variant"
     end
 
     def skip_summary?(response, action_type)
