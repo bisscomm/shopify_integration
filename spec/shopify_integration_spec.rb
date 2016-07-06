@@ -79,6 +79,27 @@ describe ShopifyIntegration do
     end
   end
 
+
+  describe '/update_variant' do
+    context 'success' do
+      it 'update variant' do
+        message = {
+          variant: {
+            sku: '100119',
+            price: '10000'
+          },
+          parameters: params
+        }.to_json
+
+        VCR.use_cassette('update_variant') do
+          post '/update_variant', message
+          expect(json_response[:summary]).to match /Update variant of SKU/
+          expect(last_response.status).to eq(200)
+        end
+      end
+    end
+  end
+
   describe '/get_inventory' do
     context 'success' do
       it 'gets inventory' do

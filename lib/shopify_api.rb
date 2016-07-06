@@ -135,6 +135,24 @@ class ShopifyAPI
     }
   end
 
+  def update_variant
+    variant = Variant.new
+    variant.add_wombat_obj @payload['variant']
+    puts "VARIANT: " + @payload['variant'].to_json
+    shopify_id = variant.shopify_id.blank? ?
+                    find_product_shopify_id_by_sku(variant.sku) : variant.shopify_id
+
+    message = 'Could not find item with SKU of ' + variant.sku
+    unless shopify_id.blank?
+      result = api_put "variants/#{shopify_id}.json", {'variant' => variant.shopify_obj['variant']}
+      message = "Update variant of SKU #{variant.sku} (ID: #{shopify_id})"
+    end
+    {
+      'objects' => result,
+      'message' => message
+    }
+  end
+
   def add_customer
     customer = Customer.new
     customer.add_wombat_obj @payload['customer'], self
