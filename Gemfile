@@ -1,4 +1,4 @@
-ruby '2.1.2'
+ruby '2.3.1'
 source 'https://rubygems.org'
 
 gem 'sinatra'
@@ -31,3 +31,7 @@ group :production do
 end
 
 gem 'endpoint_base', github: 'spree/endpoint_base'
+
+# TODO: Update `endpoint_base` and remove this line below
+# after this PR will be merged: https://github.com/spree/endpoint_base/pull/15/files
+gem 'activesupport', '~> 4.2.6'
