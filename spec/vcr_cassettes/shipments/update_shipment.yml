@@ -1,0 +1,307 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/orders/count.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/f7f5ea83-2acc-4104-9b97-0256b2cc71da?source%5Baction%5D=count&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - f7f5ea83-2acc-4104-9b97-0256b2cc71da
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlZKzi/NK1GyMqwFAAAA//8DAKli29oLAAAA
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:11 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/orders.json?limit=250&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/979f0d1f-5c5a-417a-af73-9d3bcb310408?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 979f0d1f-5c5a-417a-af73-9d3bcb310408
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        AP//AwD/sAnrIRUAAA==
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:12 GMT
+- request:
+    method: post
+    uri: https://SHOPIFY_HOST/admin/orders/3601676033/fulfillments.json
+    body:
+      encoding: UTF-8
+      string: '{"fulfillment":{"tracking_number":"01234567890"}}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      Location:
+      - https://SHOPIFY_HOST/admin/orders/3601676033/fulfillments/2867601409
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/33a87e66-8e66-4f62-a0fc-99f0c02378c8?source%5Baction%5D=create&source%5Bcontroller%5D=admin%2Forders%2Ffulfillments&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 33a87e66-8e66-4f62-a0fc-99f0c02378c8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJmdWxmaWxsbWVudCI6eyJpZCI6Mjg2NzYwMTQwOSwib3JkZXJfaWQiOjM2
+        MDE2NzYwMzMsInN0YXR1cyI6InN1Y2Nlc3MiLCJjcmVhdGVkX2F0IjoiMjAx
+        Ni0wOC0wMlQxMToyODoxMy0wNDowMCIsInNlcnZpY2UiOiJtYW51YWwiLCJ1
+        cGRhdGVkX2F0IjoiMjAxNi0wOC0wMlQxMToyODoxMy0wNDowMCIsInRyYWNr
+        aW5nX2NvbXBhbnkiOiJESEwiLCJzaGlwbWVudF9zdGF0dXMiOm51bGwsInRy
+        YWNraW5nX251bWJlciI6IjAxMjM0NTY3ODkwIiwidHJhY2tpbmdfbnVtYmVy
+        cyI6WyIwMTIzNDU2Nzg5MCJdLCJ0cmFja2luZ191cmwiOiJodHRwOlwvXC93
+        d3cuZGhsLXVzYS5jb21cL2NvbnRlbnRcL3VzXC9lblwvZXhwcmVzc1wvdHJh
+        Y2tpbmcuc2h0bWw/YnJhbmQ9REhMXHUwMDI2QVdCPTAxMjM0NTY3ODkwIiwi
+        dHJhY2tpbmdfdXJscyI6WyJodHRwOlwvXC93d3cuZGhsLXVzYS5jb21cL2Nv
+        bnRlbnRcL3VzXC9lblwvZXhwcmVzc1wvdHJhY2tpbmcuc2h0bWw/YnJhbmQ9
+        REhMXHUwMDI2QVdCPTAxMjM0NTY3ODkwIl0sInJlY2VpcHQiOnt9LCJsaW5l
+        X2l0ZW1zIjpbeyJpZCI6NjM3MjY5NjgzMywidmFyaWFudF9pZCI6bnVsbCwi
+        dGl0bGUiOiJPcmRpbmF0ZXVycyBwb3J0YWJsZXMgZm9yIFwiTWFjYm9vayBQ
+        cm8gUmV0aW5hXCIiLCJxdWFudGl0eSI6MSwicHJpY2UiOiIwLjkwIiwiZ3Jh
+        bXMiOjAsInNrdSI6IiIsInZhcmlhbnRfdGl0bGUiOiIiLCJ2ZW5kb3IiOiJB
+        Y2PDqHMgw4lsZWN0cm9uaXF1ZSIsImZ1bGZpbGxtZW50X3NlcnZpY2UiOiJt
+        YW51YWwiLCJwcm9kdWN0X2lkIjpudWxsLCJyZXF1aXJlc19zaGlwcGluZyI6
+        dHJ1ZSwidGF4YWJsZSI6dHJ1ZSwiZ2lmdF9jYXJkIjpmYWxzZSwibmFtZSI6
+        Ik9yZGluYXRldXJzIHBvcnRhYmxlcyBmb3IgXCJNYWNib29rIFBybyBSZXRp
+        bmFcIiIsInZhcmlhbnRfaW52ZW50b3J5X21hbmFnZW1lbnQiOm51bGwsInBy
+        b3BlcnRpZXMiOltdLCJwcm9kdWN0X2V4aXN0cyI6ZmFsc2UsImZ1bGZpbGxh
+        YmxlX3F1YW50aXR5IjowLCJ0b3RhbF9kaXNjb3VudCI6IjAuMDAiLCJmdWxm
+        aWxsbWVudF9zdGF0dXMiOiJmdWxmaWxsZWQiLCJ0YXhfbGluZXMiOlt7InRp
+        dGxlIjoiR1NUIiwicHJpY2UiOiIwLjA1IiwicmF0ZSI6MC4wNX0seyJ0aXRs
+        ZSI6IlFTVCIsInByaWNlIjoiMC4wOSIsInJhdGUiOjAuMDk5NzV9XSwib3Jp
+        Z2luX2xvY2F0aW9uIjp7ImlkIjoxNTkwNzMyMDk3LCJjb3VudHJ5X2NvZGUi
+        OiJDQSIsInByb3ZpbmNlX2NvZGUiOiJRQyIsIm5hbWUiOiJBY2PDqHMgw4ls
+        ZWN0cm9uaXF1ZSIsImFkZHJlc3MxIjoiMTI0MCwgQm91bC4gQ2hhcmVzdCBP
+        LiIsImFkZHJlc3MyIjoiIiwiY2l0eSI6IlF1w6liZWMiLCJ6aXAiOiJHMU4g
+        MkUzIn0sImRlc3RpbmF0aW9uX2xvY2F0aW9uIjp7ImlkIjoxNjE4NzQxMzc3
+        LCJjb3VudHJ5X2NvZGUiOiJDQSIsInByb3ZpbmNlX2NvZGUiOiJRQyIsIm5h
+        bWUiOiJCcmljZSBTYW5jaGV6IiwiYWRkcmVzczEiOiI2NzAwIHBpZXJyZSBi
+        ZXJ0cmFuZCIsImFkZHJlc3MyIjoiMjAxIiwiY2l0eSI6InF1ZWJlYyIsInpp
+        cCI6IkcySjBCNCJ9fSx7ImlkIjo2MzcyNjk2ODk3LCJ2YXJpYW50X2lkIjoy
+        MjQ5MzMwMjUyOSwidGl0bGUiOiJNYWNib29rIFBybyBSZXRpbmEiLCJxdWFu
+        dGl0eSI6MSwicHJpY2UiOiIxMDAwLjAwIiwiZ3JhbXMiOjAsInNrdSI6IiIs
+        InZhcmlhbnRfdGl0bGUiOiIiLCJ2ZW5kb3IiOiJBcHBsZSIsImZ1bGZpbGxt
+        ZW50X3NlcnZpY2UiOiJtYW51YWwiLCJwcm9kdWN0X2lkIjo3MTQ0NzU0ODgx
+        LCJyZXF1aXJlc19zaGlwcGluZyI6dHJ1ZSwidGF4YWJsZSI6dHJ1ZSwiZ2lm
+        dF9jYXJkIjpmYWxzZSwibmFtZSI6Ik1hY2Jvb2sgUHJvIFJldGluYSIsInZh
+        cmlhbnRfaW52ZW50b3J5X21hbmFnZW1lbnQiOm51bGwsInByb3BlcnRpZXMi
+        OltdLCJwcm9kdWN0X2V4aXN0cyI6dHJ1ZSwiZnVsZmlsbGFibGVfcXVhbnRp
+        dHkiOjAsInRvdGFsX2Rpc2NvdW50IjoiMC4wMCIsImZ1bGZpbGxtZW50X3N0
+        YXR1cyI6ImZ1bGZpbGxlZCIsInRheF9saW5lcyI6W3sidGl0bGUiOiJHU1Qi
+        LCJwcmljZSI6IjUwLjAwIiwicmF0ZSI6MC4wNX0seyJ0aXRsZSI6IlFTVCIs
+        InByaWNlIjoiOTkuNzUiLCJyYXRlIjowLjA5OTc1fV0sIm9yaWdpbl9sb2Nh
+        dGlvbiI6eyJpZCI6MTU5MDczMjA5NywiY291bnRyeV9jb2RlIjoiQ0EiLCJw
+        cm92aW5jZV9jb2RlIjoiUUMiLCJuYW1lIjoiQWNjw6hzIMOJbGVjdHJvbmlx
+        dWUiLCJhZGRyZXNzMSI6IjEyNDAsIEJvdWwuIENoYXJlc3QgTy4iLCJhZGRy
+        ZXNzMiI6IiIsImNpdHkiOiJRdcOpYmVjIiwiemlwIjoiRzFOIDJFMyJ9LCJk
+        ZXN0aW5hdGlvbl9sb2NhdGlvbiI6eyJpZCI6MTYxODc0MTM3NywiY291bnRy
+        eV9jb2RlIjoiQ0EiLCJwcm92aW5jZV9jb2RlIjoiUUMiLCJuYW1lIjoiQnJp
+        Y2UgU2FuY2hleiIsImFkZHJlc3MxIjoiNjcwMCBwaWVycmUgYmVydHJhbmQi
+        LCJhZGRyZXNzMiI6IjIwMSIsImNpdHkiOiJxdWViZWMiLCJ6aXAiOiJHMkow
+        QjQifX1dfX0=
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:14 GMT
+recorded_with: VCR 3.0.3
