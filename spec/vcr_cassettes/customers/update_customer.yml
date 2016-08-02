@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://SHOPIFY_HOST/admin/customers/3613331713.json
+    body:
+      encoding: UTF-8
+      string: '{"customer":{"first_name":null,"last_name":null,"email":"spree123@example.com","addresses":[{"address1":"","address2":"","zip":"","city":"","province":"","country":"","phone":""},{"address1":"","address2":"","zip":"","city":"","province":"","country":"","phone":""}]}}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '268'
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:11:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      Location:
+      - https://SHOPIFY_HOST/admin/customers/3613331713
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/0dd99f07-36a3-4be8-a61e-b80028eb8809?source%5Baction%5D=update&source%5Bcontroller%5D=admin%2Fcustomers&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 0dd99f07-36a3-4be8-a61e-b80028eb8809
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//dJBBTsQwDEXv4nU7SlooKCsOMTuEItO4o4ikiWIX
+        VRrN3UkLVIDE1nr/2f5XGBeWFKmAuYJ3YPpB932vH3TfAEX0AQxwLkS6659o
+        xZgDncYUoQEcR8rCNmJ5I/HzBcyEgamBsRAKOYtS053SQ6seW9WdtTbq3uiu
+        VXdGqapYsvsP3NjhACdfWOyMkcDMSwgNBPwzSMVRYTumZa421QBLdVev84yv
+        gVzVSBIMljNtCKjT7t5Ne9puDXza5iSH+Z2Kn3w986sQKUt9Mi5BfEbmmqq+
+        jSjfCcHV0koxy9GJ4IXrzt/7ft6PzhVipko9v9xuHwAAAP//AwBsmzsNmwEA
+        AA==
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:11:07 GMT
+recorded_with: VCR 3.0.3

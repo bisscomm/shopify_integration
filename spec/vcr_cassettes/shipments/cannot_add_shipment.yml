@@ -1,0 +1,367 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/orders/count.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/2dc57678-cf42-449d-97e5-ec71bcc3f511?source%5Baction%5D=count&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 2dc57678-cf42-449d-97e5-ec71bcc3f511
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlZKzi/NK1GyMqwFAAAA//8DAKli29oLAAAA
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:17 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/orders.json?limit=250&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/9d018c4c-09e6-4d3b-b88e-69336d4da7e7?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 9d018c4c-09e6-4d3b-b88e-69336d4da7e7
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        bHccAten5garyL8AAAD//wMA9wYDgNkeAAA=
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:18 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/orders/count.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/b4da19d8-c66a-4884-b89b-6ad4988b7b5f?source%5Baction%5D=count&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - b4da19d8-c66a-4884-b89b-6ad4988b7b5f
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlZKzi/NK1GyMqwFAAAA//8DAKli29oLAAAA
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:19 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/orders.json?limit=250&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:28:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/f4b81747-e398-4397-a705-81f6722bb712?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - f4b81747-e398-4397-a705-81f6722bb712
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        bHccAten5garyL8AAAD//wMA9wYDgNkeAAA=
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:28:21 GMT
+recorded_with: VCR 3.0.3

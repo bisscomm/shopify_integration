@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://SHOPIFY_HOST/admin/products/7071063105.json
+    body:
+      encoding: UTF-8
+      string: '{"product":{"title":"Update product title","body_html":null,"product_type":"None","options":[{"name":"Default"}],"images":[]}}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '126'
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 02 Aug 2016 15:13:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      Location:
+      - https://SHOPIFY_HOST/admin/products/7071063105
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/4023a001-2bd3-45a6-a48c-0e6a331dfe86?source%5Baction%5D=update&source%5Bcontroller%5D=admin%2Fproducts&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - chi2,ash
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 4023a001-2bd3-45a6-a48c-0e6a331dfe86
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//jFJLbtswEL2KwbUVkJIqW9oV6Lord1UEAk1SEhGK
+        pPlxIwQ+QG/Se+RiHUr+JEEMZMfhzLx57828IOsMjyyg5gVJjpoN3hBcFQR/
+        W6MggxKoQb8sp0GszpWr5XuN9oZP7RBGhRodlVqjo9DcOGj4ztjrP796/asE
+        C85oeYip4QzQhskm2J9Gp1/mBKDzlgIHlGNSZXiT5WRHcEPypigzXDYYQ+FA
+        NZ/5MOqCyLjIvNGZZRJycab4DmSb4XxHSEOKJi+uIDbulfTDV+YFMVoFqK2P
+        XSefLypvCJ6ZWUivzJ6q1EF7DzG8jtRJqgNEvxdf8zwvypLUdVXfjLhn+A/R
+        0ajCand22jrJ0j8pH+oaYv8Ur2yMl0EajRqyRr2jI4zEayQ1LCMYN7XWKMkm
+        aOZCT8luM1rqBMhvz7ALUBdVJ5Uaoa31wh2XiSPVcZZ2A4Qv2otUB3k/GCu7
+        hGtsokE+Yb9k8sugJSwu4ZfX/8mKobBKK863b1cc6DPdJx+DiwLOlDpm+FWn
+        HIH97Pw5vgo7RNiYDNNs4B8h+wEm4Ydr0EYt0+ynPolSvL3T6sQhSid86wdp
+        rdT9wuT0eNF+u4ptWW5LUpG6uH8Umo5vbgJ9WPmRqigS4AfbH9O4WWtKXt6L
+        6NPpPwAAAP//AwBJO6HS9wMAAA==
+    http_version: 
+  recorded_at: Tue, 02 Aug 2016 15:13:23 GMT
+recorded_with: VCR 3.0.3
