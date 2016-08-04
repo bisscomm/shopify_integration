@@ -38,7 +38,9 @@ module Shopify
     end
 
     def final_resource resource
-      if !@config['since'].nil?
+      if resource == 'orders' && (!@payload['last_poll'].nil? && @payload['last_poll'] != 0)
+        resource += ".json?updated_at_min=#{Time.at(@payload['last_poll'])}"
+      elsif !@config['since'].nil?
         resource += ".json?updated_at_min=#{@config['since']}"
       elsif !@config['id'].nil?
         resource += "/#{@config['id']}.json"
