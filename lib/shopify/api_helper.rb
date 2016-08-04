@@ -1,3 +1,4 @@
+require 'pry'
 module Shopify
   module APIHelper
     def api_get resource, data = {}
@@ -38,8 +39,8 @@ module Shopify
     end
 
     def final_resource resource
-      if !@config['since'].nil?
-        resource += ".json?updated_at_min=#{@config['since']}"
+      if !@payload['last_poll'].nil? || !@payload['last_poll'].zero?
+        resource += ".json?updated_at_min=#{Time.at(@payload['last_poll'])}"
       elsif !@config['id'].nil?
         resource += "/#{@config['id']}.json"
       else
