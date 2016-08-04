@@ -1,5 +1,7 @@
 # Shopify Integration
 
+[![Build Status](https://travis-ci.org/bisscomm/shopify_integration.svg?branch=master)](https://travis-ci.org/bisscomm/shopify_integration) [![Code Climate](https://codeclimate.com/github/bisscomm/shopify_integration/badges/gpa.svg)](https://codeclimate.com/github/bisscomm/shopify_integration) [![Test Coverage](https://codeclimate.com/github/bisscomm/shopify_integration/badges/coverage.svg)](https://codeclimate.com/github/bisscomm/shopify_integration/coverage)
+
 ## Overview
 
 [Shopify](http://www.shopify.com/) is a popular online store service.
