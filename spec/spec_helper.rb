@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler'
 require 'sinatra'
 require 'dotenv'
+require 'pry'
 Dotenv.load
 
 Bundler.require(:default, :test)
