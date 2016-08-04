@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://SHOPIFY_HOST/admin/products.json?updated_at_min=2016-08-01
+    uri: https://SHOPIFY_HOST/admin/products.json?updated_at_min=2016-08-04
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 02 Aug 2016 15:48:10 GMT
+      - Fri, 05 Aug 2016 14:25:07 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -51,47 +51,47 @@ http_interactions:
       X-Stats-Apipermissionid:
       - '21761425'
       X-Xss-Protection:
-      - 1; mode=block; report=/xss-report/78102c61-b749-454f-865a-b02027dab876?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fproducts&source%5Bsection%5D=admin
+      - 1; mode=block; report=/xss-report/2562ca0b-5901-410d-aeb4-1ed0b2c21622?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fproducts&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 2562ca0b-5901-410d-aeb4-1ed0b2c21622
       P3p:
       - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
       Content-Encoding:
       - gzip
       X-Dc:
-      - chi2,ash
+      - ash
       X-Content-Type-Options:
       - nosniff
-      - nosniff
-      X-Request-Id:
-      - 78102c61-b749-454f-865a-b02027dab876
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        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
+        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
+        XEdiJwAA
     http_version: 
-  recorded_at: Tue, 02 Aug 2016 15:48:10 GMT
+  recorded_at: Fri, 05 Aug 2016 14:25:07 GMT
 - request:
     method: get
-    uri: https://SHOPIFY_HOST/admin/variants/22234383809/metafields.json?updated_at_min=2016-08-01
+    uri: https://SHOPIFY_HOST/admin/variants/22880751169/metafields.json?updated_at_min=2016-08-04
     body:
       encoding: US-ASCII
       string: ''
@@ -114,7 +114,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 02 Aug 2016 15:48:11 GMT
+      - Fri, 05 Aug 2016 14:25:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -140,28 +140,27 @@ http_interactions:
       X-Stats-Apipermissionid:
       - '21761425'
       X-Xss-Protection:
-      - 1; mode=block; report=/xss-report/c4deb23e-3c1c-4c31-99e7-6f2b02ca0c4f?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      - 1; mode=block; report=/xss-report/7a70c488-a4e3-4863-a8e4-74c222f40631?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 7a70c488-a4e3-4863-a8e4-74c222f40631
       P3p:
       - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
       Content-Encoding:
       - gzip
       X-Dc:
-      - chi2,ash
+      - ash
       X-Content-Type-Options:
       - nosniff
-      - nosniff
-      X-Request-Id:
-      - c4deb23e-3c1c-4c31-99e7-6f2b02ca0c4f
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
         AAAA
     http_version: 
-  recorded_at: Tue, 02 Aug 2016 15:48:11 GMT
+  recorded_at: Fri, 05 Aug 2016 14:25:08 GMT
 - request:
     method: get
-    uri: https://SHOPIFY_HOST/admin/products.json?updated_at_min=2016-08-01
+    uri: https://SHOPIFY_HOST/admin/variants/22880752001/metafields.json?updated_at_min=2016-08-04
     body:
       encoding: US-ASCII
       string: ''
@@ -184,7 +183,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 02 Aug 2016 15:48:21 GMT
+      - Fri, 05 Aug 2016 14:25:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -210,112 +209,574 @@ http_interactions:
       X-Stats-Apipermissionid:
       - '21761425'
       X-Xss-Protection:
-      - 1; mode=block; report=/xss-report/99691001-5496-42c4-ada6-45e6fb711fb7?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fproducts&source%5Bsection%5D=admin
+      - 1; mode=block; report=/xss-report/054326a3-762b-43f9-b7e2-15f559593bc4?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 054326a3-762b-43f9-b7e2-15f559593bc4
       P3p:
       - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
       Content-Encoding:
       - gzip
       X-Dc:
-      - chi2,ash
+      - ash
       X-Content-Type-Options:
       - nosniff
-      - nosniff
-      X-Request-Id:
-      - 99691001-5496-42c4-ada6-45e6fb711fb7
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAAwAAAP//7FfLbuM2FP0VQuvIICnZeuyKyWY2g2maropAoCXa
-        JoYiFT7SGIN8QP+k/Y78WC/lR2zHSjyIg6IzY2hh8lL3ce7hge7XqDO68bWz
-        UfnH10g0UZnhjOAUFxNyETnhJI/K6AMzjqOrx38sZx59/vAxuoimullWC9fK
-        AfsdV402YPylrh//tujxL8lrZ7QSt56DfR24cssuhPikVditDWeONxVzsEcx
-        mcQ4iym5JrgMTxrjtMQYDi6Yavrc6hA7NjyEjrtagM13zaGTPMb0mpAySUtK
-        t046P5XCLgbjYbw96njbSfBaWT+bifuoVF7KXQ+21n0hc6mnTIY32BxQjQIU
-        zAimdjCmlCZpkic5Lp6AGAL/ks+Ylw5d9+twXtRhn2D4jfrk7Be/2iCkCCe0
-        FU5oFZXgZm5YC5HxRSQU9MRps6w6LUW9hFcarpYBdd12zHBAoVp7X1U383Im
-        pGzhtcpyc7cK3DLl+wqfHMIWm/NwDux2oTsxC351F9IgR4pYWegm0GqZbJYn
-        s+DkTjt2z6YBTmc8B/IyU+tmW6doIfu+Aev1trBbD40TDrAigOCfXMwXEApg
-        3ywqr0QI/mUeqpJNNfSu4bdeAE0ruxBdJ9R8lcvDzab6J3rkaZonBU0oGWaH
-        Yu0OOQ6bfsek58HhAfA3IVxfbTBu/q/KfrhYCwBNMM4wznc4eOWnS6QVumJC
-        WnStHT9QgEthnVA1JICUtlBYiwzvuIQrgyAvBNlZ0XqLGlE7hpx2rEU1nOJu
-        hC611IbDXwRkgz3dKmGDdYR+9Rp51XAE4DEEyULdSDEHnjhDXIo5yIxA3Bht
-        kPW2Fp0Aj79ByK2x02AN3vl9B7xnUx28IeYhLaPvBFwCNzqnYm0oCM84e65Y
-        BsCMtYpNADMGKHhMXuZycJS/rFrHY55ZtXJMi3RCsuyAl0cYM6Rae4r1n2vV
-        rvqcRaaOt+GV1mbnlKk3qNS3idQkGeO8yIpkmAzvKVK0KMZjkmQ/ReptIoXH
-        JUlOEamXeRzcpKdJ1H7E80tURgqCx4esfM6XH1yi9tvwSmuT/6lEpUVGkucS
-        9USGd5So8LU2SXoqbij3e48yWieD3LqHOyK1gu38wxOFD+Kh4anhsYWr/urw
-        RJKSJicOT3vxzj88paQoJseGpwPAB4endFQUm0u+zuZ7npr22nGkxXBwElpM
-        890Wv/2uv2Fo+vaZKSUT8uyu75DiHe76zcO/AAAA//8DAMW15apDEQAA
-    http_version: 
-  recorded_at: Tue, 02 Aug 2016 15:48:21 GMT
-- request:
-    method: get
-    uri: https://SHOPIFY_HOST/admin/variants/22234383809/metafields.json?updated_at_min=2016-08-01
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - "*/*"
-      Accept-Encoding:
-      - gzip, deflate
-      User-Agent:
-      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
-      Host:
-      - SHOPIFY_HOST
-      Authorization:
-      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Tue, 02 Aug 2016 15:48:22 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Frame-Options:
-      - DENY
-      X-Shopid:
-      - '13323485'
-      X-Shardid:
-      - '0'
-      X-Shopify-Shop-Api-Call-Limit:
-      - 1/40
-      Http-X-Shopify-Shop-Api-Call-Limit:
-      - 1/40
-      X-Stats-Userid:
-      - '0'
-      X-Stats-Apiclientid:
-      - '1379013'
-      X-Stats-Apipermissionid:
-      - '21761425'
-      X-Xss-Protection:
-      - 1; mode=block; report=/xss-report/5216ac13-e5e7-4919-b438-e6d9cd0da7cd?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
-      P3p:
-      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
-      Content-Encoding:
-      - gzip
-      X-Dc:
-      - chi2,ash
-      X-Content-Type-Options:
-      - nosniff
-      - nosniff
-      X-Request-Id:
-      - 5216ac13-e5e7-4919-b438-e6d9cd0da7cd
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
         AAAA
     http_version: 
-  recorded_at: Tue, 02 Aug 2016 15:48:22 GMT
+  recorded_at: Fri, 05 Aug 2016 14:25:09 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880753537/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/faa5a92a-f021-4e00-9899-ac76a568b328?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - faa5a92a-f021-4e00-9899-ac76a568b328
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:10 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880758401/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/761a4283-1d26-4a4f-bcc7-551cf57c4054?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 761a4283-1d26-4a4f-bcc7-551cf57c4054
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:10 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880760385/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/113ba460-79d6-437a-b8eb-ece6ec2b8183?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 113ba460-79d6-437a-b8eb-ece6ec2b8183
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:11 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880760769/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/de64cf5b-01ab-42f7-945d-c6ddd182ec82?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - de64cf5b-01ab-42f7-945d-c6ddd182ec82
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:12 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880761409/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/e492b055-e174-4968-9239-c095952f402c?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - e492b055-e174-4968-9239-c095952f402c
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:12 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880762049/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/23dcd27e-81fe-4842-afc9-af88b292f290?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 23dcd27e-81fe-4842-afc9-af88b292f290
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:13 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880762433/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/b4d83402-766f-4528-a2a7-d47e585b59cc?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - b4d83402-766f-4528-a2a7-d47e585b59cc
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:14 GMT
+- request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/variants/22880762881/metafields.json?updated_at_min=2016-08-04
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 05 Aug 2016 14:25:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '0'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/591e309e-e3b3-4e9b-853b-c787c6df8700?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fmetafields&source%5Bsection%5D=admin
+      X-Request-Id:
+      - 591e309e-e3b3-4e9b-853b-c787c6df8700
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//qlbKTS1JTMtMzUkpVrKKjq0FAAAA//8DADsLCWQR
+        AAAA
+    http_version: 
+  recorded_at: Fri, 05 Aug 2016 14:25:14 GMT
 recorded_with: VCR 3.0.3
