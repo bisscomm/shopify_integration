@@ -7,6 +7,9 @@ class Product
     @source = Util.shopify_host shopify_api.config
     @name = shopify_product['title']
     @description = shopify_product['body_html']
+    @vendor = shopify_product['vendor']
+    @product_type = shopify_product['product_type']
+    @tags = shopify_product['tags']
 
     @options = Array.new
     unless shopify_product['options'].nil?
@@ -43,6 +46,9 @@ class Product
     @wombat_id = wombat_product['id'].to_s
     @name = wombat_product['name']
     @description = wombat_product['description']
+    @vendor = wombat_product['vendor']
+    @product_type = wombat_product['product_type']
+    @tags = wombat_product['tags']
 
     @options = Array.new
     unless wombat_product['options'].blank?
@@ -91,6 +97,9 @@ class Product
       'name' => @name,
       'sku' => @name,
       'description' => @description,
+      'vendor' => @vendor,
+      'product_type' => @product_type,
+      'tags' => @tags,
       'meta_description' => @description,
       'options' => Util.wombat_array(@options),
       'variants' => Util.wombat_array(@variants),
@@ -103,7 +112,9 @@ class Product
       'product'=> {
         'title'=> @name,
         'body_html'=> @description,
-        'product_type' => 'None',
+        'vendor' => @vendor,
+        'product_type' => @product_type,
+        'tags' => @tags,
         'options' => Util.shopify_array(@options),
         'variants'=> Util.shopify_array(@variants).map {|v| v["variant"]},
         'images' => Util.shopify_array(@images)
