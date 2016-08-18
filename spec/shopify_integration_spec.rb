@@ -232,7 +232,7 @@ describe ShopifyIntegration do
       it 'gets shipments' do
         message = {
           parameters: params.merge({
-            since: Date.today - 1
+            since: '2016-07-29'
           })
         }.to_json
 
