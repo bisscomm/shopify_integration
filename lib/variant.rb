@@ -1,7 +1,7 @@
 class Variant
 
   attr_reader :shopify_id, :shopify_parent_id, :quantity, :images,
-              :sku, :price, :options, :shipping_category, :name
+              :sku, :price, :options, :shipping_category, :name, :metafields
 
   def add_shopify_obj shopify_variant, shopify_options
     @shopify_id = shopify_variant['id']
@@ -12,6 +12,7 @@ class Variant
     @shipping_category = shopify_variant['requires_shipping'] ?
                           'Shipping Required' : 'Shipping Not Required'
     @quantity = shopify_variant['inventory_quantity'].to_i
+    @metafields = shopify_variant['metafields']
 
     @images = Array.new
     unless shopify_variant['images'].nil?
@@ -39,6 +40,7 @@ class Variant
     @price = wombat_variant['price'].to_f
     @sku = wombat_variant['sku']
     @quantity = wombat_variant['quantity'].to_i
+    @metafields = wombat_variant['metafields']
     @options = Hash.new
 
     unless wombat_variant['options'].nil?
@@ -64,7 +66,8 @@ class Variant
       'variant' => {
         'price' => @price,
         'sku' => @sku,
-        'inventory_management' => 'shopify'
+        'inventory_management' => 'shopify',
+        'metafields' => @metafields
       }.merge(@options)
     }
   end
@@ -77,6 +80,7 @@ class Variant
       'shipping_category' => @shipping_category,
       'price' => @price,
       'quantity' => @quantity,
+      'metafields' => @metafields,
       'options' => @options
     }
   end
