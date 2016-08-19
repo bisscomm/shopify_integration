@@ -9,7 +9,22 @@ describe ShopifyIntegration do
   end
 
   describe '/get_orders' do
-    context 'success' do
+    context 'without order' do
+      it 'gets orders' do
+        message = {
+          parameters: params.merge({
+            since: "2016-08-11T11:23:05-04:00"
+          })
+        }.to_json
+
+        VCR.use_cassette('orders/get_orders_without_order') do
+          post '/get_orders', message
+          expect(last_response.status).to eq(200)
+        end
+      end
+    end
+
+    context 'with orders' do
       it 'gets orders' do
         message = {
           parameters: params.merge({
@@ -17,7 +32,7 @@ describe ShopifyIntegration do
           })
         }.to_json
 
-        VCR.use_cassette('orders/get_orders') do
+        VCR.use_cassette('orders/get_orders_with_orders') do
           post '/get_orders', message
           expect(json_response[:summary]).to match /orders from Shopify./
           expect(last_response.status).to eq(200)
