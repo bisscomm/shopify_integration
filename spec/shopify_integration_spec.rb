@@ -12,7 +12,9 @@ describe ShopifyIntegration do
     context 'success' do
       it 'gets orders' do
         message = {
-          parameters: params
+          parameters: params.merge({
+            since: "2016-08-10T11:23:05-04:00"
+          })
         }.to_json
 
         VCR.use_cassette('orders/get_orders') do
