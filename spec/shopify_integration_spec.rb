@@ -108,7 +108,7 @@ describe ShopifyIntegration do
 
         message = {
           parameters: params.merge({
-            since: Date.today - 1
+            since: '2016-08-17'
           })
         }.to_json
 
