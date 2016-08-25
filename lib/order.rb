@@ -34,6 +34,7 @@ class Order
       line_item = LineItem.new
       @line_items << line_item.add_shopify_obj(shopify_li, shopify_api)
     end
+    @shipments = Shipment.wombat_obj_from_order(shopify_order)
 
     unless shopify_order['shipping_address'].nil?
       @shipping_address = {
@@ -100,7 +101,8 @@ class Order
       ],
       'shipping_address' => @shipping_address,
       'billing_address' => @billing_address,
-      'payments' => Util.wombat_array(@payments)
+      'payments' => Util.wombat_array(@payments),
+      'shipments' => @shipments
     }
   end
 
