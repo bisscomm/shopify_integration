@@ -1,8 +1,89 @@
 ---
 http_interactions:
 - request:
+    method: get
+    uri: https://SHOPIFY_HOST/admin/products/7333850497/variants.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - SHOPIFY_HOST
+      Authorization:
+      - Basic MDNlZDY1NDlmZmIzMWEzNmFhZWExNDM1ZmJlMzg1NzE6NWI2NWZhZjg0NTRjYjk2Y2VlZGFmYTIxYTc2ZjE1OGY=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 15 Nov 2016 20:57:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '13323485'
+      X-Shardid:
+      - '12'
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1379013'
+      X-Stats-Apipermissionid:
+      - '21761425'
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report/47bda90d-de37-4634-8573-b46bbdc10721?source%5Baction%5D=index&source%5Bcontroller%5D=admin%2Fproduct_variants&source%5Bsection%5D=admin
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      Content-Encoding:
+      - gzip
+      X-Dc:
+      - ash,chi2
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      - nosniff
+      X-Request-Id:
+      - 47bda90d-de37-4634-8573-b46bbdc10721
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//dFFBbsMgEPxKxdmOwA524Jwn5FZViNjYWQUDwZA2
+        ivL3QpxEVdVKXGZ3dmdmuaKz9CBNmBF/vyLoEa9qzFrGKMasQM7bPnZB5EZb
+        1/WG4jVrCxQgaIU42qpBRh3ednec+dDlerViLMH5GDNoWrppctfOEMAaxEmB
+        Ri+npIoLBOasTLD+IpzV0F3SSK/MJQ10dnLSKyGDeGw2UesCDVEPoPWUxsSs
+        /HkRnaSJUqOfC1NJjirzUn8+WAdD3mtdtkH+CLB0qqfQAusn7LySQfXJT46F
+        SVPiTXq7qua44hUt8ZpjnNZE1/8iElISuiOU04ZjVmK6EIP8kvt8yuCjKtBe
+        +s72r5wwJff34z/wK9gppk+DkG5F0gU/FYyHJIVXLyCigSx+HHMq3Yv/Zr06
+        RfBqFvMBnAMzLl5uH7dvAAAA//8DAJ3eb9kdAgAA
+    http_version: 
+  recorded_at: Tue, 15 Nov 2016 20:57:24 GMT
+- request:
     method: put
-    uri: https://SHOPIFY_HOST/admin/variants/22234383809.json
+    uri: https://SHOPIFY_HOST/admin/variants/23097995009.json
     body:
       encoding: UTF-8
       string: '{"variant":{"inventory_quantity":"10"}}'
@@ -29,7 +110,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 02 Aug 2016 15:34:22 GMT
+      - Tue, 15 Nov 2016 20:57:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -43,7 +124,7 @@ http_interactions:
       X-Shopid:
       - '13323485'
       X-Shardid:
-      - '0'
+      - '12'
       X-Shopify-Shop-Api-Call-Limit:
       - 1/40
       Http-X-Shopify-Shop-Api-Call-Limit:
@@ -55,31 +136,36 @@ http_interactions:
       X-Stats-Apipermissionid:
       - '21761425'
       Location:
-      - https://SHOPIFY_HOST/admin/products/7071040961/variants/22234383809
+      - https://SHOPIFY_HOST/admin/products/7333850497/variants/23097995009
       X-Xss-Protection:
-      - 1; mode=block; report=/xss-report/920906e9-65f3-4a77-9dc7-2b6773b3a9fb?source%5Baction%5D=update&source%5Bcontroller%5D=admin%2Fproduct_variants&source%5Bsection%5D=admin
+      - 1; mode=block; report=/xss-report/4976b878-5bc1-4489-93cc-b48abcb3e496?source%5Baction%5D=update&source%5Bcontroller%5D=admin%2Fproduct_variants&source%5Bsection%5D=admin
       P3p:
       - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
       Content-Encoding:
       - gzip
       X-Dc:
-      - chi2,ash
+      - ash,chi2
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
       X-Content-Type-Options:
       - nosniff
       - nosniff
+      - nosniff
       X-Request-Id:
-      - 920906e9-65f3-4a77-9dc7-2b6773b3a9fb
+      - 4976b878-5bc1-4489-93cc-b48abcb3e496
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAAwAAAP//dFHLbsMgEPyVirNdAbby4NxPyB0Rg51VMBAeaaMo
-        /94lTqKqai1fZndmd2e4krOKoFwm4kpAE8E57/pu023otiEhel2GLGtjTdeM
-        9nS7Yg3JkK0hgnyYURWb33Z3XPkw1Dqj+L1TiqV0LEuBsW1l+AQZvCMCx0xR
-        zYkI2hBwZ+OyjxcZvIXhghJt3AUFg5+DikaqLB/TXbG2IWOxI1g7o0wmE8/L
-        4lm5oiz5ORBLajKVh/108AHGOteHegb7w8TS4c9FC+yecIhGZaPxHpRyylYt
-        Xbec7RgV9e9b2ou78RL0b+KmpXzHmOh6jPlFzOpL7WucORbTkL2Kg9cvnzDj
-        9fcHeOCXsVPBZ4OMWTFM8NPAdMBVGPsTyOKgLj9O1ZXV8j9tNKcC0SSZDhAC
-        uGm55Xb7BgAA//8DAInyO1geAgAA
+        H4sIAAAAAAAAAwAAAP//dFHLbsMgEPyVirMdgR3swLmfkDsiNnZWxUB4pI2i
+        /HshTqKqaiUuszu7M7Nc0Vl6kCYifkUwIt60mPWMUYxZhZy3YxqiKI2+bdsd
+        xVvWVyhC1Apx9K4mmXR8299x4cNQ6s2GsQzDRyqg6+muK10bIII1iJMKzV4u
+        AXFcITBnZaL1F+GshuGSR0ZlLnlgsIuTXgkZxWOzSVpXaEp6Aq2XPCaC8udV
+        dJEmSY1+LswlOavCy/1wtA6mste6YoP8EWDtNE+hFbZPOHgloxqznxILk67G
+        u/z2Tctxwxta4y3HOK9JbvxFJKQmdE8opx3HrMZ0JUb5JQ/llNEnVaGD9IMd
+        Xzlhye7vx3/gV7BTyl8GMd+K5At+KpiPWQpvXkAkA0X8Yy6p9Cj+m/XqlMCr
+        IMIRnAMzr15ut28AAAD//wMAvljt1xoCAAA=
     http_version: 
-  recorded_at: Tue, 02 Aug 2016 15:34:22 GMT
+  recorded_at: Tue, 15 Nov 2016 20:57:25 GMT
 recorded_with: VCR 3.0.3

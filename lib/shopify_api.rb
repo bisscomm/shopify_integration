@@ -192,7 +192,7 @@ class ShopifyAPI
     inventory.add_wombat_obj @payload['inventory']
     puts "INV: " + @payload['inventory'].to_json
     shopify_id = inventory.shopify_id.blank? ?
-                    find_product_shopify_id_by_sku(inventory.sku) : inventory.shopify_id
+                    find_product_shopify_id_by_sku(inventory.sku) : find_variant_shopify_id(inventory.shopify_id, inventory.sku)
 
     message = 'Could not find item with SKU of ' + inventory.sku
     unless shopify_id.blank?

@@ -141,9 +141,9 @@ describe ShopifyIntegration do
       it 'sets inventory' do
         message = {
           inventory: {
-            shopify_id: '22234383809',
-            quantity: '10',
-            product_id: '7071040961'
+            product_id: '267586', # or sku
+            shopify_id: '7333850497',
+            quantity: '10'
           },
           parameters: params
         }.to_json
