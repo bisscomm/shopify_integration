@@ -32,7 +32,7 @@ group :production do
   gem 'unicorn'
 end
 
-gem 'endpoint_base', github: 'spree/endpoint_base'
+gem 'endpoint_base', git: 'https://github.com/spree/endpoint_base'
 
 # TODO: Update `endpoint_base` and remove this line below
 # after this PR will be merged: https://github.com/spree/endpoint_base/pull/15/files
