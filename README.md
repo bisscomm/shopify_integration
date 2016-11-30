@@ -26,6 +26,13 @@ The following parameters must be setup within [Wombat](http://wombat.co):
 | shopify_wait     | Shopify API wait between calls, `0.5` for 0.5 second |
 | create_shipments | Config to return corresponding shipments in get_orders |
 
+
+## Usage
+
+```ruby
+$ bundle exec unicorn -p 4000 -c ./config/unicorn.rb
+```
+
 ## Webhooks
 
 The following webhooks are implemented. For all 'get_' webhooks, a
